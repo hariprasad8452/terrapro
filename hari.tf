@@ -66,11 +66,11 @@ resource "aws_security_group" "three" {
 }
 
 resource "aws_s3_bucket" "four" {
-  bucket = "raham0077552bucketterra"
+  bucket = "hari077552bucketterra"
 }
 
 resource "aws_iam_user" "five" {
-name = "rahamuser11" 
+name = "hariuser11" 
 }
 
 resource "aws_ebs_volume" "six" {
