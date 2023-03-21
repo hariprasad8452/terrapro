@@ -8,7 +8,6 @@ secret_key = "+su7VEFx0d2ZO4SJxD73/kLd2+DmPpq+N2l9f+Vi"
 resource "aws_instance" "one" {
   ami             = "ami-0d81306eddc614a45"
   instance_type   = "t2.micro"
-  key_name        = "rmk8s"
   vpc_security_group_ids = [aws_security_group.three.id]
   availability_zone = "ap-south-1a"
   user_data       = <<EOF
