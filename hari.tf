@@ -1,8 +1,8 @@
 #this file consists of code for instances and sg
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIA2KQG3KB2OAUOKGUT"
-secret_key = "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"
+access_key = "AKIARNP7QAI3X6BNXDIE"
+secret_key = "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"
 }
 
 resource "aws_instance" "one" {
